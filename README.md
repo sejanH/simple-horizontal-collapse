@@ -16,14 +16,14 @@ npm install simple-horizontal-collapse
 
 ```html
 <section class="collapse">
-  <button class="panel is-active" type="button" aria-pressed="true">
+  <div class="panel is-active" aria-pressed="true">
     <span class="panel__title">Overview</span>
     <div class="panel__body">Content</div>
-  </button>
-  <button class="panel" type="button" aria-pressed="false">
+  </div>
+  <div class="panel" aria-pressed="false">
     <span class="panel__title">Details</span>
     <div class="panel__body">More content</div>
-  </button>
+  </div>
 </section>
 ```
 

@@ -29,9 +29,12 @@ npm install simple-horizontal-collapse
 
 ```js
 import { createHorizontalCollapse } from "simple-horizontal-collapse";
+import "simple-horizontal-collapse/styles.css";
 
 createHorizontalCollapse();
 ```
+
+Note: Importing CSS in JS requires a bundler (Vite/Webpack/Parcel). Without a bundler, use the `<link>` tag above.
 
 ## Options
 
@@ -48,3 +51,13 @@ createHorizontalCollapse({
 
 - The CSS handles horizontal behavior on desktop and vertical accordion behavior on mobile.
 - Use `type="button"` for panel buttons to avoid unintended form submits.
+
+## Importing CSS (CSS/SCSS)
+
+```css
+@import "simple-horizontal-collapse/styles.css";
+```
+
+```scss
+@use "simple-horizontal-collapse/styles.css";
+```

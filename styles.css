@@ -49,13 +49,13 @@ h1 {
   max-width: 520px;
 }
 
-.collapse {
+.shc-collapse {
   display: flex;
   gap: 2px;
   min-height: 360px;
 }
 
-.panel {
+.shc-panel {
   position: relative;
   flex: 1 1 0;
   min-width: 80px;
@@ -72,35 +72,35 @@ h1 {
   gap: 8px;
 }
 
-.panel__title {
+.shc-panel__title {
   font-size: 18px;
   font-weight: 600;
   color: var(--ink);
 }
 
-.panel__body {
+.shc-panel__body {
   font-size: 14px;
   color: var(--muted);
   overflow: hidden;
   display: block;
 }
 
-.panel.is-active {
+.shc-panel.is-active {
   flex: 1 1 75%;
   border-color: rgba(234, 95, 44, 0.55);
   justify-content: initial;
   cursor: unset;
 }
 
-.panel.is-active::after {
+.shc-panel.is-active::after {
   opacity: 1;
 }
 
-.panel:not(.is-active) .panel__body {
+.shc-panel:not(.is-active) .shc-panel__body {
   display: none;
 }
 
-.panel:not(.is-active) .panel__title {
+.shc-panel:not(.is-active) .shc-panel__title {
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   align-self: center;
@@ -108,26 +108,26 @@ h1 {
   letter-spacing: 0.06em;
 }
 
-.panel:focus-visible {
+.shc-panel:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 4px;
 }
 
 @media (max-width: 767px) {
-  .collapse {
+  .shc-collapse {
     height: auto;
     flex-direction: column;
   }
 
-  .panel.is-active {
+  .shc-panel.is-active {
     transform: none;
   }
 
-  .panel:not(.is-active) .panel__body {
+  .shc-panel:not(.is-active) .shc-panel__body {
     display: none;
   }
 
-  .panel:not(.is-active) .panel__title {
+  .shc-panel:not(.is-active) .shc-panel__title {
     writing-mode: horizontal-tb;
     transform: none;
     align-self: flex-start;

@@ -1,7 +1,7 @@
 export function createHorizontalCollapse(options = {}) {
   const {
-    root = ".collapse",
-    panelSelector = ".panel",
+    root = ".shc-collapse",
+    panelSelector = ".shc-panel",
     activeClass = "is-active",
     allowArrowKeys = true,
   } = options;

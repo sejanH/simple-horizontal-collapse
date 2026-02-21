@@ -1,6 +1,6 @@
 {
   "name": "simple-horizontal-collapse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny vanilla JS horizontal collapse / accordion component.",
   "type": "module",
   "main": "index.js",

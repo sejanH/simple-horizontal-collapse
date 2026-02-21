@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Horizontal Collapse</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Vanilla JS</p>
+        <h1>Simple Horizontal Collapse</h1>
+        <p class="subhead">Click a panel to expand. Click another to switch.</p>
+      </header>
+
+      <section class="collapse" aria-label="Horizontal collapse panels">
+        <button class="panel is-active" data-panel="1" aria-pressed="true">
+          <span class="panel__title">Overview</span>
+          <span class="panel__body">A clean, minimal horizontal collapse interaction.</span>
+        </button>
+        <button class="panel" data-panel="2" aria-pressed="false">
+          <span class="panel__title">Details</span>
+          <span class="panel__body">Click to focus this panel and shrink the rest.</span>
+        </button>
+        <button class="panel" data-panel="3" aria-pressed="false">
+          <span class="panel__title">Notes</span>
+          <span class="panel__body">No dependencies. Just HTML, CSS, and JS.</span>
+        </button>
+        <button class="panel" data-panel="4" aria-pressed="false">
+          <span class="panel__title">Usage</span>
+          <span class="panel__body">Drop this into any static page or app.</span>
+        </button>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

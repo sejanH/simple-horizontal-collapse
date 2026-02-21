@@ -9,6 +9,10 @@
     ".": "./index.js",
     "./styles.css": "./styles.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sejanH/simple-horizontal-collapse.git"
+  },
   "files": [
     "index.js",
     "styles.css",

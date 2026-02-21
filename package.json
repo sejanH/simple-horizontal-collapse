@@ -1,0 +1,27 @@
+{
+  "name": "simple-horizontal-collapse",
+  "version": "0.1.0",
+  "description": "A tiny vanilla JS horizontal collapse / accordion component.",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./styles.css": "./styles.css"
+  },
+  "files": [
+    "index.js",
+    "styles.css",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "accordion",
+    "collapse",
+    "horizontal",
+    "vanilla",
+    "javascript"
+  ],
+  "author": "https://github.com/sejanH",
+  "license": "MIT"
+}

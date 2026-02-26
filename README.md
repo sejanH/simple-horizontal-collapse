@@ -1,12 +1,14 @@
 # simple-horizontal-collapse
 
 Simple lightweight horizontal collapse using vanilla JS.
+### [Demo](https://codepen.io/sejan404/full/OPRPboL)
 
 ## Install
 
 ```bash
 npm install simple-horizontal-collapse
 ```
+
 
 ## Usage
 
